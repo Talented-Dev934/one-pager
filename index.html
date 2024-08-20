@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>dws_Website_Entwurf_Home</title>
+    <meta name="description" content="dws_Website_Entwurf_Home" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="shortcut icon" href="/src/assets/favicon.svg" />
+  </head>
+  <body class="h-screen overflow-x-hidden font-['PlusJakarta']">
+    <div
+      class="flex flex-wrap justify-center text-white bg-gradient-to-b from-pink-700 from-10% via-yellow-500 via-50% to-pink-700 to-90% pt-8"
+    >
+      <header
+        class="h-14 container px-ss md:px-sm flex justify-between items-center"
+      >
+        <div class="h-full">
+          <img
+            class="w-auto h-full"
+            src="/src/assets/images/dws_logo_white_200x86px.svg"
+            alt="dws_logo_white_200x86px"
+          />
+        </div>
+
+        <div class="group w-10 h-full relative cursor-pointer">
+          <label class="z-40 cursor-pointer px-3 py-6" for="side-menu">
+            <input class="peer hidden" type="checkbox" id="side-menu" />
+            <div
+              class="relative z-50 block h-1 w-full bg-white rounded-3xl transform translate-y-1/2 content-[''] before:absolute before:top-2 before:z-50 before:block before:h-full before:w-full before:bg-white before:rounded-3xl before:transition-all before:duration-200 before:ease-out before:content-[''] after:absolute after:right-0 after:bottom-2 after:block after:h-full after:w-full after:bg-white after:rounded-3xl after:transition-all after:duration-200 after:ease-out after:content-[''] peer-checked:bg-transparent before:peer-checked:top-0 before:peer-checked:bg-gradient-to-r from-yellow-500 to-pink-700 before:peer-checked:w-full before:peer-checked:rotate-45 before:peer-checked:transform after:peer-checked:bottom-0 after:peer-checked:bg-gradient-to-r from-yellow-500 to-pink-700 after:peer-checked:w-full after:peer-checked:-rotate-45 after:peer-checked:transform"
+            ></div>
+            <div
+              class="absolute bottom-1/2 right-1/2 w-0 h-0 rounded-full bg-white opacity-0 transform translate-x-1/2 translate-y-1/2 group-hover:w-14 group-hover:h-14 group-hover:opacity-50 transition-[width,height,opacity]"
+            ></div>
+            <div
+              class="fixed bg-black bg-opacity-50 inset-0 z-40 hidden h-full w-full bg-black/50 backdrop-blur-sm peer-checked:block peer-checked:animate-fade"
+            >
+              &nbsp;
+            </div>
+            <div
+              class="fixed top-0 right-0 z-40 h-full w-full translate-x-full overflow-y-auto overscroll-y-none transition duration-500 peer-checked:translate-x-0"
+            >
+              <div
+                class="float-right min-h-full min-w-full sm:min-w-80 bg-white px-6 pt-20 shadow-2xl"
+              >
+                <menu>
+                  <button
+                    class="sss flex justify-center items-center my-4 px-4 pt-bnt pb-bnb bg-white rounded-3xl font-bold text-base whitespace-nowrap hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-pink-300"
+                  >
+                    <span
+                      class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent"
+                      >Button 1</span
+                    >
+                  </button>
+                  <button
+                    class="flex justify-center items-center my-4 px-4 pt-bnt pb-bnb bg-white rounded-3xl font-bold text-base whitespace-nowrap hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-pink-300"
+                  >
+                    <span
+                      class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent"
+                      >Button 2</span
+                    >
+                  </button>
+                  <button
+                    class="flex justify-center items-center my-4 px-4 pt-bnt pb-bnb bg-white rounded-3xl font-bold text-base whitespace-nowrap hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-pink-300"
+                  >
+                    <span
+                      class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent"
+                      >Button 3</span
+                    >
+                  </button>
+                  <button
+                    class="flex justify-center items-center my-4 px-4 pt-bnt pb-bnb bg-white rounded-3xl font-bold text-base whitespace-nowrap hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-pink-300"
+                  >
+                    <span
+                      class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent"
+                      >Button 4</span
+                    >
+                  </button>
+                </menu>
+              </div>
+            </div>
+          </label>
+        </div>
+      </header>
+
+      <main class="container px-ss md:px-sm">
+        <section
+          id="section1"
+          class="grid grid-cols-1 gap-5 md:grid-cols-3 py-s15"
+        >
+          <div class="md:col-span-1">
+            <h1
+              id="slide-in-left"
+              class="font-bold text-h1 font-['PlusJakarta-Bold'] opacity-0 transform translate-x-left transition-[transform,opacity] duration-500 ease-linear pb-s4"
+            >
+              Gemeinsam in die digitale Zukunft der Versorgung
+            </h1>
+            <button
+              class="flex justify-center items-center px-4 pt-bnt pb-bnb bg-white rounded-3xl font-bold text-base whitespace-nowrap hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-pink-300"
+            >
+              <span
+                class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent"
+                >unsere Mission</span
+              >
+            </button>
+          </div>
+          <div class="md:col-span-2">
+            <img
+              src="/src/assets/images/animation-placeholder.png"
+              alt="Gemeinsam in die digitale Zukunft der Versorgung"
+            />
+          </div>
+        </section>
+        <section
+          id="section2"
+          class="grid grid-cols-1 gap-5 content-center md:grid-cols-2 py-s15"
+        >
+          <div class="content-center">
+            <div class="mask1">
+              <img
+                src="/src/assets/images/iStock-1249572139_AleksandarNakic.jpg"
+                alt="Gemeinsam in die digitale Zukunft der Versorgung"
+              />
+            </div>
+          </div>
+          <div class="content-center">
+            <h2
+              id="slide-in-left"
+              class="font-bold text-h2 font-['PlusJakarta-Bold'] opacity-0 transform translate-x-left transition-[transform,opacity] duration-500 ease-linear"
+            >
+              Neue Lösungen für eine sich verändernde Welt
+            </h2>
+            <div
+              id="slide-in-right"
+              class="text-teaser opacity-0 transform translate-x-full transition-[transform,opacity] duration-500 ease-linear pt-s3 pb-s4"
+            >
+              Wir sammeln und setzen Daten zur Generierung und Realisierung von
+              Lösungen auf allen Gebieten der kommunalen Ver- und Entsorgung in
+              wert.
+            </div>
+            <button
+              class="flex justify-center items-center px-4 pt-bnt pb-bnb bg-white rounded-3xl font-bold text-base whitespace-nowrap hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-pink-300"
+            >
+              <span
+                class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent"
+              >
+                unsere Leistungen
+              </span>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <section
+        id="section3"
+        class="flex flex-wrap justify-center text-center bg-gradient-to-b from-pink-700 from-10% to-yellow-500 to-90% rounded-b-4xl md:rounded-b-5xl py-s15 px-ss"
+      >
+        <div class="container md:px-sm sm:grid sm:grid-cols-6 text-white">
+          <h2
+            id="slide-in-left"
+            class="col-start-2 col-span-4 font-bold text-h2 font-['PlusJakarta-Bold'] opacity-0 transform translate-x-left transition-[transform,opacity] duration-500 ease-linear"
+          >
+            Werden Sie Teil der Gemeinschaft
+          </h2>
+          <div
+            id="slide-in-right"
+            class="col-start-2 col-span-4 text-teaser opacity-0 transform translate-x-full transition-[transform,opacity] duration-500 ease-linear pt-s3 pb-s4"
+          >
+            Das digitalwerk saar sorgt in der Region SarLorLux als eine digitale
+            kommunale Solidargemeinschaft für smarte (Energie-)Versorgung.<br />Wir
+            sind für jeden ofen, der mitmachen möchte.
+          </div>
+          <div class="flex justify-center col-start-2 col-span-4 pb-s10">
+            <button
+              class="flex justify-center items-center px-4 pt-bnt pb-bnb bg-white rounded-3xl font-bold text-base whitespace-nowrap hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-pink-300"
+            >
+              <span
+                class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent"
+              >
+                Kontakt
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="container md:px-sm items-center bg-white rounded-4xl md:rounded-5xl pb-s10"
+        >
+          <div class="col-start-1 col-span-12 text-black"></div>
+          <h3
+            class="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent font-bold text-h3 font-['PlusJakarta-Bold'] pt-s5 pb-s4"
+          >
+            Eine Initiative von
+          </h3>
+          <div class="grid grid-cols-12 gap-5">
+            <div
+              class="col-start-2 col-end-12 grid grid-cols-1 gap-5 md:grid-cols-5 justify-items-center justify-self-center items-center max-w-logomax md:max-w-full"
+            >
+              <img
+                class="col-span-1"
+                src="/src/assets/images/kew_logo.svg"
+                alt="kew_logo"
+              />
+              <img
+                class="col-span-1"
+                src="/src/assets/images/swsls_logo.svg"
+                alt="swsls_logo"
+              />
+              <img
+                class="col-span-1"
+                src="/src/assets/images/logo_stadtwerke_dillingen.png"
+                alt="logo_stadtwerke_dillingen"
+              />
+              <img
+                class="col-span-1"
+                src="/src/assets/images/logo_stadtwerke_merzig.png"
+                alt="logo_stadtwerke_merzig"
+              />
+              <img
+                class="col-span-1"
+                src="/src/assets/images/logo_stadtwerke_st_wendel1.png"
+                alt="logo_stadtwerke_st_wendel"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer flex flex-wrap justify-center text-main text-footer">
+        <div
+          class="container px-ss md:px-sm flex flex-col lg:flex-row justify-between"
+        >
+          <div
+            class="w-full flex flex-wrap flex-col content-center ss:flex-row lg:justify-between lg:flex-nowrap"
+          >
+            <div class="flex flex-row flex-1 h-12 my-s4">
+              <span class="w-1 h-full bg-main rounded-md"></span>
+              <div class="flex flex-col pl-3 pr-8">
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Home</span
+                >
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Leistungen</span
+                >
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Mission</span
+                >
+              </div>
+            </div>
+            <div class="flex flex-row flex-1 h-12 my-s4">
+              <span class="w-1 h-full bg-main rounded-md"></span>
+              <div class="flex flex-col pl-3 pr-8">
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Partner</span
+                >
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Kontakt</span
+                >
+              </div>
+            </div>
+            <div class="flex flex-row flex-1 h-12 my-s4">
+              <span class="w-1 h-full bg-main rounded-md"></span>
+              <div class="flex flex-col pl-3 pr-8">
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Impressum</span
+                >
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Datenschutz</span
+                >
+              </div>
+            </div>
+            <div class="hidden md:flex flex-row flex-auto h-12 my-s4"></div>
+            <div class="flex flex-row flex-1 h-12 my-s4">
+              <span class="w-1 h-full bg-main rounded-md"></span>
+              <div class="flex flex-col pl-3 pr-8">
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >digitalwerk saar GmbH</span
+                >
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >Holtzendorferstrasse 12</span
+                >
+                <span
+                  class="whitespace-nowrap cursor-pointer hover:text-main_hover"
+                  >66740 Saarlouis</span
+                >
+              </div>
+            </div>
+            <img
+              class="flex-1 h-12 my-s4"
+              src="/src/assets/images/dws_logo_footer__150x68px.svg"
+              alt="dws_logo_footer"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/src/assets/js/script.js"></script>
+  </body>
+</html>

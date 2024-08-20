@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 18px;
+    line-height: 28px;
+    overflow-x: hidden;
+  }
+  @font-face {
+    font-family: "PlusJakarta";
+    src: url("/src/assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-VariableFont_wght.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "PlusJakarta-Bold";
+    src: url("/src/assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf")
+      format("truetype");
+    font-weight: Bold;
+    font-style: normal;
+  }
+}
